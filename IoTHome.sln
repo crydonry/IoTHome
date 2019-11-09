@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHome", "IoTHome\IoTHome.csproj", "{FB14FB6F-0843-46C7-BAAE-DF63A4484B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB14FB6F-0843-46C7-BAAE-DF63A4484B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB14FB6F-0843-46C7-BAAE-DF63A4484B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB14FB6F-0843-46C7-BAAE-DF63A4484B5A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FB14FB6F-0843-46C7-BAAE-DF63A4484B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB14FB6F-0843-46C7-BAAE-DF63A4484B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB14FB6F-0843-46C7-BAAE-DF63A4484B5A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8C4D90E-639A-4A77-8667-66D8B908ACA4}
+	EndGlobalSection
+EndGlobal
