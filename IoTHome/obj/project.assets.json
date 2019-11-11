@@ -2040,11 +2040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BentleyPC\\Desktop\\IoTHome\\IoTHome\\IoTHome\\IoTHome.csproj",
+      "projectUniqueName": "C:\\Users\\BentleyPC\\Desktop\\iotsmarthome\\IoTSmartHome\\IoTHome\\IoTHome.csproj",
       "projectName": "IoTHome",
-      "projectPath": "C:\\Users\\BentleyPC\\Desktop\\IoTHome\\IoTHome\\IoTHome\\IoTHome.csproj",
+      "projectPath": "C:\\Users\\BentleyPC\\Desktop\\iotsmarthome\\IoTSmartHome\\IoTHome\\IoTHome.csproj",
       "packagesPath": "C:\\Users\\BentleyPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BentleyPC\\Desktop\\IoTHome\\IoTHome\\IoTHome\\obj\\",
+      "outputPath": "C:\\Users\\BentleyPC\\Desktop\\iotsmarthome\\IoTSmartHome\\IoTHome\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

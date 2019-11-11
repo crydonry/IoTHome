@@ -1,10 +1,13 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
+using Android.Support.V7.Widget;
+using Android.Views;
 using Android.Widget;
 using Firebase;
 using Firebase.Database;
-
+using IoTHome.Activities;
+using System;
 
 namespace IoTHome
 {
@@ -13,27 +16,15 @@ namespace IoTHome
     {
         FirebaseDatabase database;
         Button btntestConnection;
-        
+        TextView clickTolightRGB;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            // Set our view from the "main" layout resource
 
             SetContentView(Resource.Layout.activity_main);
 
-            btntestConnection = (Button)FindViewById(Resource.Id.mybutton);
-            btntestConnection.Click += BtntestConnection_Click;
-
-            var toolbar = FindViewById<Toolbar>(Resource.Id.toolbar);
-
-            //Toolbar will now take on default actionbar characteristics
-            SetActionBar(toolbar);
-
-            ActionBar.Title = "Main";
-
-
-      
-           
+            clickTolightRGB = (TextView)FindViewById(Resource.Id.tolightRGB);
+            clickTolightRGB.Click += tolightRGB;
         }
 
         private void BtntestConnection_Click(object sender, System.EventArgs e)
@@ -70,5 +61,10 @@ namespace IoTHome
 
             Toast.MakeText(this, "Completed", ToastLength.Short).Show();
         }
+        private void tolightRGB(object sender, EventArgs e)
+        {
+            StartActivity(typeof(ColorPickerActivity));
+        }
+
     }
 }
