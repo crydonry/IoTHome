@@ -108,13 +108,13 @@ namespace IoTHome.Activities
                 database = FirebaseDatabase.GetInstance(app);
             }
 
-            DatabaseReference red = database.GetReference("LED/red");
+            DatabaseReference red = database.GetReference("IoT/LED/red");
             red.SetValue(redvalue);
 
-            DatabaseReference blue = database.GetReference("LED/blue");
+            DatabaseReference blue = database.GetReference("IoT/LED/blue");
             blue.SetValue(bluevalue);
 
-            DatabaseReference green = database.GetReference("LED/green");
+            DatabaseReference green = database.GetReference("IoT/LED/green");
             green.SetValue(greenvalue);
 
             Toast.MakeText(this, "Completed", ToastLength.Short).Show();

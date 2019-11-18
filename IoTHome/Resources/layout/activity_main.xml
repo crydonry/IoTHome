@@ -108,13 +108,14 @@
                     android:layout_height="wrap_content">
 
                     <ImageView
-                        android:src="@drawable/RGBlight"
+                        android:src="@drawable/Fan"
                         android:layout_gravity="center_horizontal"
                         android:layout_width="100dp"
                         android:layout_height="100dp" />
 
                     <TextView
-                        android:text="RGBlight"
+                        android:id="@+id/toFancontrol" 
+                        android:text="Fan"
                         android:textAlignment="center"
                         android:textColor="@android:color/black"
                         android:textSize="20dp"

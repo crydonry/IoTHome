@@ -15,7 +15,7 @@ namespace IoTHome
     public class MainActivity : AppCompatActivity
     {
         FirebaseDatabase database;
-        Button btntestConnection;
+        TextView clickToFancontrol;
         TextView clickTolightRGB;
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -25,6 +25,9 @@ namespace IoTHome
 
             clickTolightRGB = (TextView)FindViewById(Resource.Id.tolightRGB);
             clickTolightRGB.Click += tolightRGB;
+
+            clickToFancontrol = (TextView)FindViewById(Resource.Id.toFancontrol);
+            clickToFancontrol.Click += toFancontrol;
         }
 
         private void BtntestConnection_Click(object sender, System.EventArgs e)
@@ -64,6 +67,11 @@ namespace IoTHome
         private void tolightRGB(object sender, EventArgs e)
         {
             StartActivity(typeof(ColorPickerActivity));
+        }
+
+        private void toFancontrol(object sender, EventArgs e)
+        {
+            StartActivity(typeof(FanActivity));
         }
 
     }
